@@ -1,0 +1,164 @@
+
+html,body {
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.wrapper,
+.main {
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
+.header {
+  background: #4ab4f5;
+  height: 100%;
+  text-align: center;
+}
+
+.header span {
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+.main__title {
+  text-align: center;
+}
+
+.main__name {
+    font-size: 4em;
+}
+
+.main__prof::before,
+.main__prof:after {
+  display: inline-block;
+  content:" ";
+  width: 15px;
+	height: 15px;
+	background: #4ab4f5;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.main__requsit {
+  box-sizing: border-box;
+  float: right;
+  height: 500px;
+  min-width: 20%;
+  border: 2px solid #4ab4f5;
+  margin: 20px 20px 20px 20px;
+  background: #ecfafc;
+
+}
+
+.main__requsit div {
+  margin: 10px;
+}
+
+.main__carrier-summary {
+  overflow: hidden;
+  min-width: 60%;
+
+}
+
+.main__about-me {
+  margin-left:20px;
+  font-size: 20px;
+}
+
+.main__experience {
+  overflow: hidden;
+}
+.main__experience p{
+  font-size: 20px;
+  margin-left:20px;
+}
+
+.main__skill-education {
+  -overflow: hidden;
+  padding-top: 50px;
+}
+
+.main__title-quad {
+  height: 40px;
+  border-bottom: 2px solid #4ab4f5;
+  border-left: 30px solid #4ab4f5;
+  font-size: 20px;
+
+}
+
+.main__title-quad h2 {
+  margin-left: 10px;
+
+}
+
+.main__skills {
+  font-size: 20px;
+  margin-left:20px;
+}
+
+.main__prof-skills,
+.main__education,
+.main__skills {
+  display: inline-block;
+  width: 300px;
+
+}
+
+
+.main__prof-skills p,
+.main__personals-kills p {
+  min-width: 300px;
+  max-width: 300px;
+  font-size: 1.1em;
+}
+
+.main__prof-skills p span,
+.main__personals-kills p span{
+  float: right;
+  display: inline-block;
+  content:" ";
+  width: 15px;
+	height: 15px;
+	background: grey;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.main__education
+ {
+  margin-top: 30px;
+  padding-left: 30px;
+  float:right;
+  border-left: 2px solid #4ab4f5;
+  display: inline-block;
+  width: 60%;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+.footer {
+  background: #4ab4f5;
+  height: 30px;
+  width: 100%;
+}
